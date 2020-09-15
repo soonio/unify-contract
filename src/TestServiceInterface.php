@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace unify\connector;
+namespace unify\contract;
 
 /**
  * 一个测试的接口
