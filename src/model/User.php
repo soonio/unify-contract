@@ -3,6 +3,7 @@ declare(strict_types=1);
 
 namespace unify\contract\model;
 
+use ReflectionException;
 use unify\contract\Configure;
 
 class User
@@ -38,4 +39,14 @@ class User
      * @var string 用户签名/备注
      */
     public $remark;
+
+    /**
+     * User constructor.
+     * @param array $data
+     * @throws ReflectionException
+     */
+    public function __construct(array $data)
+    {
+        $this->load($data);
+    }
 }
