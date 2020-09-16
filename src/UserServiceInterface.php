@@ -17,10 +17,10 @@ interface UserServiceInterface
 
     /**
      * 获取用户列表
-     * @param int $id
+     * @param int $uid
      * @return array [ 'admin' => '管理员', 'pm' => '产品经理' ]
      */
-    public function role(int $id): array;
+    public function role(int $uid): array;
 
     /**
      * 获取菜单
