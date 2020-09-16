@@ -4,16 +4,15 @@ declare(strict_types=1);
 
 namespace unify\contract;
 
-use unify\contract\model\User;
 
 interface UserServiceInterface
 {
     /**
      * 根据登录token，获取用户
      * @param string $token
-     * @return User
+     * @return array
      */
-    public function user(string $token): ?User;
+    public function user(string $token): array;
 
     /**
      * 获取用户列表
