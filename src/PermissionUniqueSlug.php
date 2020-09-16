@@ -17,7 +17,7 @@ trait PermissionUniqueSlug
      * @param $route
      * @return string
      */
-    protected function slug(string $method, string $route)
+    public function slug(string $method, string $route)
     {
         return $method . '|' . $route;
     }
