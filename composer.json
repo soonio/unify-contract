@@ -3,9 +3,7 @@
   "description": "微中台服务中心-合约",
   "type": "library",
   "require": {
-    "php": ">7.2",
-    "symfony/serializer": "^5.1",
-    "symfony/property-access": "^5.1"
+    "php": ">7.2"
   },
   "license": "MIT",
   "autoload":{
