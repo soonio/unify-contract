@@ -10,7 +10,7 @@ interface UserServiceInterface
     /**
      * 根据登录token，获取用户
      * @param string $token
-     * @return array
+     * @return array [ 'id' => '', 'username' => '', 'nickname' => '', 'email', 'status' => '', 'remark' => '', ]
      */
     public function user(string $token): array;
 
