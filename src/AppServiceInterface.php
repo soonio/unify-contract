@@ -4,7 +4,7 @@ declare(strict_types=1);
 namespace unify\contract;
 
 /**
- * 应用接口
+ * 当前应用相关的数据操作服务
  * Interface AppServiceInterface
  * @package unify\contract
  */

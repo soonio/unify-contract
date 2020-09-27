@@ -5,6 +5,11 @@ declare(strict_types=1);
 namespace unify\contract;
 
 
+/**
+ * Interface UserServiceInterface
+ * 用户相关数据的接口服务
+ * @package unify\contract
+ */
 interface UserServiceInterface
 {
     /**
